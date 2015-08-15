@@ -13,8 +13,8 @@ namespace CSExercises
             System.Console.WriteLine("enter distance number please");
             String x = System.Console.ReadLine();
             double y = System.Convert.ToDouble(x);
-            double z = Math.Round((40 * y + 240),10)/100;
-            System.Console.WriteLine("The total fare is {0:0.00}", z);
+            double z = Math.Round((0.4 * y + 2.40),1);
+            System.Console.WriteLine("The total fare is ${0:0.00}", z);
         }
     }
 }

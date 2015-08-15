@@ -14,7 +14,7 @@ namespace CSExercises
             String x = System.Console.ReadLine();
             double y = System.Convert.ToDouble(x);
             double z = y * (1 + 0.1 + 0.03);
-            System.Console.WriteLine("The salary is {0}", z);
+            System.Console.WriteLine("The salary is $ {0}", z);
         }
     }
 }
