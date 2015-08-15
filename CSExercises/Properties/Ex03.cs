@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace CSExercises
 {
-    public class Ex12
+    public class Ex03
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            System.Console.WriteLine("enter distance number please");
+            System.Console.WriteLine("enter a double number please");
             String x = System.Console.ReadLine();
             double y = System.Convert.ToDouble(x);
-            double z = Math.Round((40 * y + 240),10)/100;
-            System.Console.WriteLine("The total fare is {0:0.00}", z);
+            double z = y * y;
+            System.Console.WriteLine("The square of" + x +"is"+ z);
+        
         }
     }
 }

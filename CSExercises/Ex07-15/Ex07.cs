@@ -10,7 +10,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            System.Console.WriteLine("enter salary number please");
+            String x = System.Console.ReadLine();
+            double y = System.Convert.ToDouble(x);
+            double z = y * (1 + 0.1 + 0.03);
+            System.Console.WriteLine("The salary is {0}", z);
         }
     }
 }
