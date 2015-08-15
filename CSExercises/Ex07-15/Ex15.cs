@@ -22,7 +22,7 @@ namespace CSExercises
                 System.Console.WriteLine(a+"is a Armstrong number ");
              }
             else 
-                System.Console.WriteLine(a + "is a Armstrong number ");
+                System.Console.WriteLine(a + "is not a Armstrong number ");
         }
     }
 }
