@@ -16,11 +16,11 @@ namespace CSExercises
             double x=Convert.ToDouble(dis);
             double cost;
 
-            if (x < 0.5)
+            if (x<=0.5)
             { 
                 cost=2.4;
             }
-            else if (x < 9)
+            else if (x<=9)
             {
                 cost = 2.4 + (x - 0.5) * 0.4;
             }
@@ -29,7 +29,7 @@ namespace CSExercises
                 cost = 2.4 + 8.5 * 0.4 + (x - 9) * 0.5;
             }
 
-            System.Console.WriteLine("Your travel fee is {0:C} grade", cost);
+            System.Console.WriteLine("Your travel fee is {0:C}.", cost);
 
         }
     }

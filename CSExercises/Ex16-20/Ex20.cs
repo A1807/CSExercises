@@ -24,13 +24,13 @@ namespace CSExercises
 
             cost = 900 * tv + 500 * dvd + 700 * mp3;
 
-            if (cost >= 5000)
+            if (cost > 5000)
             {
                 price1 = 900 * tv * (1 - 0.1);
                 price2 = 500 * dvd * (1 - 0.1);
                 price3 = 700 * mp3;
             }
-            else if (cost >=10000)
+            else if (cost >10000)
             {
                 price1 = 900 * tv * (1 - 0.15);
                 price2 = 500 * dvd * (1 - 0.15);
